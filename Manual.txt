@@ -1,0 +1,41 @@
+Manual de ejecución:
+
+Para ejecutar desde ECLIPSE:
+- File import 
+- Existing project into the workspace
+- Seleccionar folder cluster
+- Una vez cargado: Botón derecho sobre la clase y pulsar en Run as java application
+
+
+Banco de datos BD tratada:
+Se puede cargar los dos bancos de prueba adjuntos, localizados en:
+..\cluster\datos
+Un banco de pruebas de 13500 registros
+Un banco de pruebas de 122500 registros
+
+
+Cambiar número de CLUSTERS
+
+Para ello modificar la línea: 
+URL_DATOS     = "./datos/acciones 122500 registros.arff";
+
+
+Cambiar tarifas:
+public static double TARIFA_BAJA   = 0.099;
+public static double TARIFA_MEDIA  = 0.139;
+public static double TARIFA_ALTA   = 0.15;
+
+Cambiar número de clusters:
+	
+public static int NUMERO_CLUSTERS  = 50;
+
+
+
+Salidas:
+
+1) En pantalla el sistema de recomendación muestra las recomendaciones finales.
+2) En fichero "./salida/datos.csv" muestra las recomendaciones finales acumuladas de todas las ejecuciones.
+3) Consola de Java:
+   Muestra todos los clusters con l núemro de intancias y su porcentaje
+   También muestra las recomendaciones finales.
+
