@@ -38,3 +38,11 @@ Las salidas disponibles por la aplicación son:
    Muestra todos los clusters con el número de intancias y su porcentaje
    También muestra las recomendaciones finales.
 
+#Licencias
+Se hace uso de las liberías Java de Weka con licencia GNU.
+
+Partes de este código incorpora fragmentos de código de proyectos de código abierto
+obtenidos en:
+http://www.programcreek.com/java-api-examples/index.php?api=weka.clusterers.SimpleKMeans
+http://www.programcreek.com/2014/02/k-means-clustering-in-java/
+
